@@ -49,6 +49,7 @@ const options = [
     arrowDownIcon={downArrowImg}
     defaultOption={defaultOption}
 />;
+```
 
 
 #properties:
@@ -57,5 +58,3 @@ const options = [
  - arrowUpIcon - image (png, svg...) 
  - downArrowImg - image (png, svg...)
  - defaultOption - object, required
-
-```
