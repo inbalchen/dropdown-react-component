@@ -13,12 +13,10 @@ import upArrowImg from 'path/to/asset'
 import downArrowImg from 'path/to/asset'
 
 const defaultOption = {
-    {
         icon: icon, 
         text: 'Main Option', 
         name: 'main option', 
         link: 'main link'
-    }
 }
 
 const options = [
