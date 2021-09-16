@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import DropDownButton from './components/DropDownButton'
+import upArrowImg from './assets/up-chevron-white.svg'
+import downArrowImg from './assets/down-chevron-white.svg'
+import { options } from './utils/mock-data'
+import globe from './assets/globe.png'
 
-function App() {
+const defaultOption = {
+  icon: globe, 
+  text: 'Global Integrations', 
+  name: 'global', 
+  link: 'https://github.com/inbalchen'
+}
+
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DropDownButton 
+        options={props.options || options}
+        mainBgColor={props.mainBgColor || "rgb(14, 114, 237)"} 
+        arrowUpIcon={props.arrowUpIcon || upArrowImg} 
+        arrowDownIcon={props.arrowDownIcon || downArrowImg}
+        defaultOption={props.defaultOption || defaultOption}
+      />
     </div>
   );
 }
