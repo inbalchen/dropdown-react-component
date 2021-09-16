@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
-import DropDownButton from './component/DropDownButton'
-import upArrowImg from './component/assets/up-chevron-white.svg'
-import downArrowImg from './component/assets/down-chevron-white.svg'
-import { options } from './component/utils/mock-data'
-import globe from './component/assets/globe.png'
+import DropDownButton from './DropDownButton'
+import upArrowImg from './assets/up-chevron-white.svg'
+import downArrowImg from './assets/down-chevron-white.svg'
+import { options } from './utils/mock-data'
+import globe from './assets/globe.png'
 
 const defaultOption = {
   icon: globe, 

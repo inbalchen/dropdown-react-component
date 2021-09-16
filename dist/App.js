@@ -1,5 +1,6 @@
+import React from 'react';
 import './App.css';
-import DropDownButton from './components/DropDownButton';
+import DropDownButton from './DropDownButton';
 import upArrowImg from './assets/up-chevron-white.svg';
 import downArrowImg from './assets/down-chevron-white.svg';
 import { options } from './utils/mock-data';
