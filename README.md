@@ -8,7 +8,7 @@ npm install dropdown-react-component
 #Usage
 
 ```
-import DropDownButton from 'dropdown-react-component'
+import DropDownButton from 'dropdown-react-component/dist/App'
 import upArrowImg from 'path/to/asset'
 import downArrowImg from 'path/to/asset'
 
