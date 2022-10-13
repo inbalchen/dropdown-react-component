@@ -1,11 +1,15 @@
-React dropdown component
+## React dropdown 
 
-#Installation
+react dropdown component
+
+![](https://ibb.co/7WdQ09V)
+
+## Installation
 ```
 npm install dropdown-react-component
 ```
 
-#Usage
+## Usage
 
 ```
 import DropDownButton from 'dropdown-react-component/dist/App'
@@ -50,9 +54,13 @@ const options = [
 ```
 
 
-#properties:
+## properties:
  - options - object, required
  - mainBgColor - string (RGB, RGBA, Hexadecimal..)
  - arrowUpIcon - image (png, svg...) 
  - downArrowImg - image (png, svg...)
  - defaultOption - object, required
+
+ ## Keywords
+
+ react react-dropdown dropdown-react
