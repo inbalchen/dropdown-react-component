@@ -1,6 +1,6 @@
 {
   "name": "dropdown-react-component",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "private": false,
   "babel": {
     "presets": [
@@ -45,5 +45,10 @@
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/preset-react": "^7.14.5"
-  }
+  },
+  "keywords": [
+    "react",
+    "react-dropdown",
+    "dropdown-react"
+  ]
 }

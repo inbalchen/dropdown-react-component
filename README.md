@@ -60,7 +60,3 @@ const options = [
  - arrowUpIcon - image (png, svg...) 
  - downArrowImg - image (png, svg...)
  - defaultOption - object, required
-
- ## Keywords
-
- react react-dropdown dropdown-react
